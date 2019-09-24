@@ -1,0 +1,27 @@
+
+{
+    "//": "======== Control the image alignment and height with caption attribute =======",
+    "//": "======== SINGLE BLOCK CONTAINER =======",
+    "role": "container",
+    "style": "photoContainerStyle",
+    "components": [
+        {
+            "role": "image",
+            "layout": {
+            "horizontalContentAlignment": "center",
+            "margin": {
+                "top": 10
+            },
+            "maximumContentWidth": "40cw"
+            },
+            "URL": "https://cdn-assets.ziniopro.com/var/site_881/storage/images/media2/images/mott50xmarg_047/159026-1-eng-US/mott50xmarg_0472.jpg?q=100"
+        },
+        {
+            "role": "caption",
+            "layout": "captionLayout",
+            "textStyle": "captionTextStyle2",
+            "format": "html",
+            "text": "This sporty brand teamed up with designer Margherita Maccapani Missoni to create a stylish suit that protects—it’s made with UPF 50 material. <span data-anf-textstyle='captionHeadingTextStyle2'>MOTT50</span>&nbsp;<i>($195; <a href=\"http://mott50.com\">mott50.com</a>)</i>"
+        }
+    ]
+}

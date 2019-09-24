@@ -1,0 +1,37 @@
+{
+          "//": "Adding a condition based component. Which renders the component differently in iPhone and iPad. Condition added for viewport: "minViewportWidth": 700"
+          "role": "body",
+          "layout": "bodyLayout",
+          "style": "paragraphStyle",
+          "textStyle": "recipeDetailsTextStyle",
+          "format": "html",
+          "text": "HANDS-ON 25 MIN&nbsp;&nbsp;TOTAL 15 MIN<br>2&nbsp;(1-CUP) SERVINGS&nbsp;&nbsp;SUBMITTED&nbsp;BY&nbsp;EATANDRUN",
+          "conditional": [
+            {
+              "hidden": true,
+              "conditions": [
+                {
+                  "minViewportWidth": 700
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "role": "body",
+          "layout": "bodyLayout",
+          "style": "paragraphStyle",
+          "textStyle": "recipeDetailsTextStyle",
+          "format": "html",
+          "text": "HANDS-ON 25 MIN&nbsp;&nbsp;TOTAL 15 MIN&nbsp;&nbsp;2 (1-CUP)&nbsp;SERVINGS&nbsp;&nbsp;SUBMITTED&nbsp;BY&nbsp;EATANDRUN",
+          "conditional": [
+            {
+              "hidden": true,
+              "conditions": [
+                {
+                  "maxViewportWidth": 700
+                }
+              ]
+            }
+          ]
+        },

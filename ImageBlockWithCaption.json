@@ -1,6 +1,6 @@
 
 {
-    "//": "======== Control the image alignment and height with caption attribute =======",
+    "//": "======== Control the image alignment and height with caption attribute and margin attribute =======",
     "//": "======== SINGLE BLOCK CONTAINER =======",
     "role": "container",
     "style": "photoContainerStyle",

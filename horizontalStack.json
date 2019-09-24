@@ -1,0 +1,270 @@
+{
+          "//": "==== Stacking the components horizontally, side by side. Usually used when we want to add a image and description beside it. ====",
+          "//": "======== BODY CONTAINER =======",
+          "role": "container",
+          "layout": "bodyContainerLayout",
+          "style": "bodyContainerStyle",
+          "components": [
+            {
+              "role": "container",
+              "layout": {
+                "columnSpan": 18,
+                "columnStart": 1,
+                "margin": {
+                  "bottom": 0,
+                  "top": 20
+                }
+              },
+              "contentDisplay": {
+                "type": "horizontal_stack"
+              },
+              "components": [
+                {
+                  "role": "container",
+                  "layout": {
+                    "maximumWidth": "20cw"
+                  },
+                  "comment": "PUT COLUMN ONE CONTENT IN THIS MASTER CONTAINER",
+                  "components": [
+                    {
+                      "role": "image",
+                      "URL": "https://cdn-assets.ziniopro.com/var/site_1012/storage/images/media2/images/wire0001267_0812/117835-1-eng-US/wire0001267_0812.jpg"
+                    }
+                  ]
+                },
+                {
+                  "role": "spacer",
+                  "layout": {
+                    "maximumWidth": 50,
+                    "minimumWidth": 50
+                  },
+                  "comment": "PUT COLUMN TWO CONTENT IN THIS MASTER CONTAINER"
+                },
+                {
+                  "role": "container",
+                  "layout": {
+                    "maximumWidth": "77cw"
+                  },
+                  "comment": "PUT COLUMN TWO CONTENT IN THIS MASTER CONTAINER",
+                  "components": [
+                    {
+                      "role": "body",
+                      "layout": "bodyLayout",
+                      "style": "paragraphStyle",
+                      "textStyle": "bodyTextStyle",
+                      "format": "html",
+                      "text": "<p><b>1</b> Toronto Blue Jays pitcher <b>Marcus Stroman</b> celebrates his 28th birthday.</p><p><b>2</b> NASCAR driver <b>Kyle Busch</b> is 34.</p>"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "role": "container",
+              "layout": {
+                "columnSpan": 18,
+                "columnStart": 1,
+                "margin": 0
+              },
+              "contentDisplay": {
+                "type": "horizontal_stack"
+              },
+              "components": [
+                {
+                  "role": "container",
+                  "layout": {
+                    "margin": 4,
+                    "maximumWidth": "20cw"
+                  },
+                  "comment": "PUT COLUMN ONE CONTENT IN THIS MASTER CONTAINER",
+                  "components": [
+                    {
+                      "role": "image",
+                      "URL": "https://cdn-assets.ziniopro.com/var/site_1012/storage/images/media2/images/wire0001267_0832/117828-1-eng-US/wire0001267_0832.jpg"
+                    }
+                  ]
+                },
+                {
+                  "role": "spacer",
+                  "layout": {
+                    "maximumWidth": 50,
+                    "minimumWidth": 50
+                  },
+                  "comment": "PUT COLUMN TWO CONTENT IN THIS MASTER CONTAINER"
+                },
+                {
+                  "role": "container",
+                  "layout": {
+                    "maximumWidth": "77cw"
+                  },
+                  "comment": "PUT COLUMN TWO CONTENT IN THIS MASTER CONTAINER",
+                  "components": [
+                    {
+                      "role": "body",
+                      "layout": "bodyLayout",
+                      "style": "paragraphStyle",
+                      "textStyle": "bodyTextStyle",
+                      "format": "html",
+                      "text": "<p><b>3</b> Forward <b>Domantas Sabonis</b> of the Indiana Pacers turns 23.</p><p><b>4</b> Minnesota Wild goalie <b>Devan Dubnyk</b> turns 33.</p><p><b>5</b> Miami Heat guard <b>Goran Dragić</b> celebrates his 33rd birthday.</p>"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "role": "container",
+              "layout": {
+                "columnSpan": 18,
+                "columnStart": 1,
+                "margin": 0
+              },
+              "contentDisplay": {
+                "type": "horizontal_stack"
+              },
+              "components": [
+                {
+                  "role": "container",
+                  "layout": {
+                    "margin": 4,
+                    "maximumWidth": "20cw"
+                  },
+                  "comment": "PUT COLUMN ONE CONTENT IN THIS MASTER CONTAINER",
+                  "components": [
+                    {
+                      "role": "image",
+                      "URL": "https://cdn-assets.ziniopro.com/var/site_1012/storage/images/media2/images/wire0001267_0852/117821-1-eng-US/wire0001267_0852.jpg"
+                    }
+                  ]
+                },
+                {
+                  "role": "spacer",
+                  "layout": {
+                    "maximumWidth": 50,
+                    "minimumWidth": 50
+                  },
+                  "comment": "PUT COLUMN TWO CONTENT IN THIS MASTER CONTAINER"
+                },
+                {
+                  "role": "container",
+                  "layout": {
+                    "maximumWidth": "77cw"
+                  },
+                  "comment": "PUT COLUMN TWO CONTENT IN THIS MASTER CONTAINER",
+                  "components": [
+                    {
+                      "role": "body",
+                      "layout": "bodyLayout",
+                      "style": "paragraphStyle",
+                      "textStyle": "bodyTextStyle",
+                      "format": "html",
+                      "text": "<p><b>10</b> Former Olympic swimmer <b>Missy Franklin</b> turns 24.</p><p><b>13</b> Vegas Golden Knights right wing <b>Mark Stone</b> is 27.</p>"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "role": "container",
+              "layout": {
+                "columnSpan": 18,
+                "columnStart": 1,
+                "margin": 0
+              },
+              "contentDisplay": {
+                "type": "horizontal_stack"
+              },
+              "components": [
+                {
+                  "role": "container",
+                  "layout": {
+                    "maximumWidth": "20cw"
+                  },
+                  "comment": "PUT COLUMN ONE CONTENT IN THIS MASTER CONTAINER",
+                  "components": [
+                    {
+                      "role": "image",
+                      "URL": "https://cdn-assets.ziniopro.com/var/site_1012/storage/images/media2/images/wire0001267_0892/117814-1-eng-US/wire0001267_0892.jpg"
+                    }
+                  ]
+                },
+                {
+                  "role": "spacer",
+                  "layout": {
+                    "maximumWidth": 50,
+                    "minimumWidth": 50
+                  },
+                  "comment": "PUT COLUMN TWO CONTENT IN THIS MASTER CONTAINER"
+                },
+                {
+                  "role": "container",
+                  "layout": {
+                    "maximumWidth": "77cw"
+                  },
+                  "comment": "PUT COLUMN TWO CONTENT IN THIS MASTER CONTAINER",
+                  "components": [
+                    {
+                      "role": "body",
+                      "layout": "bodyLayout",
+                      "style": "paragraphStyle",
+                      "textStyle": "bodyTextStyle",
+                      "format": "html",
+                      "text": "<p><b>18</b> Olympic figure skater <b>Alina Zagitova</b> of Russia celebrates her 17th birthday.</p><p><b>21</b> Forward <b>Mario Mandžukić</b> of Juventus turns 33.</p><p><b>22</b> Pittsburgh Pirates leftfielder <b>Corey Dickerson</b> is 30.</p>"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "role": "container",
+              "layout": {
+                "columnSpan": 18,
+                "columnStart": 1,
+                "margin": 0
+              },
+              "contentDisplay": {
+                "type": "horizontal_stack"
+              },
+              "components": [
+                {
+                  "role": "container",
+                  "layout": {
+                    "maximumWidth": "20cw"
+                  },
+                  "comment": "PUT COLUMN ONE CONTENT IN THIS MASTER CONTAINER",
+                  "components": [
+                    {
+                      "role": "image",
+                      "caption": "(JARED C. TILTON/GETTY IMAGES (CAR); RICH GRAESSLE/ICON SPORTSWIRE/GETTY IMAGES (ANDRETTI); JEFF HAYNES (CUBS); CHRISTOPHE ARCHAMBAULT/AFP/GETTY IMAGES (NADAL); PAUL BERESWILL/GETTY IMAGES (STROMAN); RON HOSKINS/NBAE/GETTY IMAGES (SABONIS); JEFF BOTTARI/NHLI/GETTY IMAGES (STONE); MADDIE MEYER/GETTY IMAGES (ZAGITOVA); DAVE REGINEK/NHLI/GETTY IMAGES (BARZAL))",
+                      "URL": "https://cdn-assets.ziniopro.com/var/site_1012/storage/images/media2/images/wire0001267_0872/117807-1-eng-US/wire0001267_0872.jpg"
+                    }
+                  ]
+                },
+                {
+                  "role": "spacer",
+                  "layout": {
+                    "maximumWidth": 50,
+                    "minimumWidth": 50
+                  },
+                  "comment": "PUT COLUMN TWO CONTENT IN THIS MASTER CONTAINER"
+                },
+                {
+                  "role": "container",
+                  "layout": {
+                    "maximumWidth": "77cw"
+                  },
+                  "comment": "PUT COLUMN TWO CONTENT IN THIS MASTER CONTAINER",
+                  "components": [
+                    {
+                      "role": "body",
+                      "layout": "bodyLayout",
+                      "style": "paragraphStyle",
+                      "textStyle": "bodyTextStyle",
+                      "format": "html",
+                      "text": "<p><b>26</b> New York Islanders center <b>Mathew Barzal</b> turns 22.</p><p><b>30</b> Forward <b>Harrison Barnes</b> of the Sacramento Kings celebrates his 27th birthday.</p>"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        }

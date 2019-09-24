@@ -1,0 +1,80 @@
+
+{
+    "//": "====== Video Block with Auto Play Example 1 =======",
+    "role": "container",
+    "layout": {
+      "ignoreDocumentMargin": true,
+      "minimumHeight": "120cw"
+    },
+    "style": "tentVideoComponentStyle",
+    "components": [
+      {
+        "role": "container",
+        "layout": {
+          "columnSpan": 18,
+          "columnStart": 1,
+          "ignoreDocumentMargin": true,
+          "margin": {
+            "top": 0
+          }
+        },
+        "style": "photoContainerStyle",
+        "components": [
+          {
+            "role": "image",
+            "URL": "https://public-assets.meredithcorp.io/803f321893cbdffa443e31810c2aa587/badges.png"
+          }
+        ]
+      },
+      {
+        "role": "title",
+        "format": "html",
+        "anchor": {
+          "targetAnchorPosition": "top"
+        },
+        "text": "&nbsp;"
+      }
+    ]
+  },
+  {
+    "//": "====== Video Block Example 2 =======",
+    "role": "container",
+    "layout": {
+      "ignoreDocumentMargin": true,
+      "minimumHeight": "67cw"
+    },
+    "style": "targetVideoComponentStyle",
+    "identifier": "juliatony",
+    "components": [
+      {
+        "role": "title",
+        "format": "html",
+        "anchor": {
+          "targetAnchorPosition": "center"
+        },
+        "text": "&nbsp;"
+      }
+    ]
+  }
+
+  //Add these styles in componentStyles block
+  "targetVideoComponentStyle": {
+    "fill": {
+      "fillMode": "fit",
+      "loop": true,
+      "stillURL": "https://public-assets.meredithcorp.io/cb8157c775503263b783557bda98c6e6/ss.jpg",
+      "type": "video",
+      "URL": "https://insider.bhg.com/public/assets/anf/video/TonyHale_Layer.mp4",
+      "verticalAlignment": "top"
+    }
+  },
+  "tentVideoComponentStyle": {
+    "fill": {
+      "fillMode": "fit",
+      "loop": false,
+      "stillURL": "https://public-assets.meredithcorp.io/9e472d4fd2f59ddc7dfe7a5e75985c36/tent.jpg",
+      "type": "video",
+      "URL": "https://insider.bhg.com/public/assets/anf/video/Tent_Export.mp4",
+      "verticalAlignment": "top"
+    }
+  }

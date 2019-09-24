@@ -1,0 +1,18 @@
+
+{
+    "//": "======== PullQuote Block where the attribute is lengthy, when it wraps it will get a big lineHeight. To reduce it seperate the quote and attribute ========",
+    "role": "pullquote",
+    "layout": "pullQuoteLayout",
+    "style": "pullQuoteStyle",
+    "textStyle": "pullQuoteTextStyle",
+    "format": "html",
+    "text": "‘I don’t eat soy bars, soy supplements or other processed types of soy. I do eat food-based soy, and I don’t restrict the amount—although I don’t make it my exclusive source of protein.’"
+},
+{
+    "role": "body",
+    "layout": "bodyNoMarginAboveLayout",
+    "style": "paragraphStyle",
+    "textStyle": "bodyCenteredTextStyle",
+    "format": "html",
+    "text": "<pullquote-attribution>—Wendy Chen, MD, </pullquote-attribution><pullquote-credits>oncologist, Dana-Farber Cancer Institute, Boston</pullquote-credits>"
+}

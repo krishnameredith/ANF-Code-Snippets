@@ -1,0 +1,38 @@
+{
+    "//": "======== Add the identifier id in href for the section where the article should scroll on click =======",
+    "//": "======== FULL BLEED CONTAINER =======",
+    "role": "container",
+    "layout": "fullBleedContainerLayout",
+    "style": "fullBleedContainerStyle",
+    "components": [
+      {
+        "role": "photo",
+        "layout": "fullBleedPhotoLayout",
+        "caption": {
+          "format": "html",
+          "text": "<a href=\"#tomatoHerbConserve\">Tomato-and-Herb Conserve Recipe</a>",
+          "textStyle": "captionEmbeddedTextStyle"
+        },
+        "URL": "https://cdn-assets.ziniopro.com/var/site_710/storage/images/media2/images/8727-dg-003_1102/217409-1-eng-US/8727-dg-003_1102.jpg?q=100"
+      },
+      {
+        "role": "caption",
+        "layout": "captionLayout",
+        "textStyle": "captionTextStyle",
+        "format": "html",
+        "text": "<a href=\"#tomatoHerbConserve\">Tomato-and-Herb Conserve Recipe</a>"
+      }
+    ]
+  },
+  
+  
+  {
+    "//": "======== Add the id in identifier attribute, the article will scroll to this section on click. =======",
+    "role": "heading2",
+    "layout": "heading3Layout",
+    "textStyle": "heading2TextStyle",
+    "format": "html",
+    "identifier": "tomatoHerbConserve",
+    "text": "Tomato-and-Herb Conserve"
+  }
+

@@ -1,0 +1,71 @@
+//NOTE: These will have full bleed only in phones and not in iPad.
+
+{
+    "//": "======== Hero Image Layout ========",
+    "//": "======== SINGLE BLOCK CONTAINER ========",
+    "role": "container",
+    "layout": "heroImageLayout",
+    "components": [
+    {
+        "//": "======== IMAGE BLOCK - 484.0x599.0 ========",
+        "role": "image",
+        "layout": "fullBleedPhotoLayout",
+        "URL": "https://cdn-assets.ziniopro.com/var/site_867/storage/images/media2/images/imag4890/263660-1-eng-US/imag48902.jpg?q=100"
+    },
+    {
+        "role": "caption",
+        "layout": "captionLayout",
+        "textStyle": "captionTextStyle",
+        "format": "html",
+        "text": "Alison gives the thumbs-up on surgery day."
+    }
+    ]
+},
+
+{
+    "//": "======== HERO Tall Image Layout, if the image has lot of height use this. =======",
+    "//": "======== HERO CONTAINER =======",
+    "role": "container",
+    "layout": "heroImageTallLayout",
+    "components": [
+    {
+        "role": "photo",
+        "layout": "fullBleedPhotoLayout",
+        "caption": {
+        "format": "html",
+        "text": "<b>Staying Strong</b><br>&#x201C;I wish [Miley] nothing but health and happiness,&#x201D; Hemsworth wrote on Instagram.<br><span data-anf-textstyle=\"creditTextStyle\">MATT BARON/SHUTTERSTOCK</span>",
+        "textStyle": "captionEmbeddedTextStyle"
+        },
+        "URL": "https://cdn-assets.ziniopro.com/var/site_677/storage/images/media2/images/shutterstoc_0504/1132021-1-eng-US/shutterstoc_0502.jpg?q=100"
+    },
+    {
+        "role": "caption",
+        "layout": "captionLayout",
+        "textStyle": "captionTextStyle",
+        "format": "html",
+        "text": "<caption-heading>Staying Strong</caption-heading><br>&#x201C;I wish [Miley] nothing but health and happiness,&#x201D; Hemsworth wrote on Instagram.<br><span data-anf-textstyle=\"creditTextStyle\">MATT BARON/SHUTTERSTOCK</span>"
+    }
+    ]
+},
+
+{
+        "//": "======== FULL BLEED CONTAINER =======",
+        "role": "container",
+        "layout": "fullBleedContainerLayout",
+        "style": "fullBleedContainerStyle",
+        "components": [
+        {
+            "role": "photo",
+            "layout": "fullBleedPhotoLayout",
+            "caption": "ONE TOUGH MOTHER\nAfter having her daughter, Isabella (now 7), Alcantara chronicled her transformation on Instagram. Some of her followers turned into clients when she became a trainer.",
+            "URL": "https://cdn-assets.ziniopro.com/var/site_858/storage/images/media2/images/sha0619sfmo_065/305473-1-eng-US/sha0619sfmo_0652.jpg?q=100"
+        },
+        {
+            "role": "caption",
+            "layout": "captionLayout",
+            "textStyle": "captionTextStyle",
+            "format": "html",
+            "text": "<b>ONE TOUGH MOTHER<br></b>After having her daughter, Isabella (now 7), Alcantara chronicled her transformation on Instagram. Some of her followers turned into clients when she became a trainer."
+        }
+        ]
+}

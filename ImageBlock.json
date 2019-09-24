@@ -1,0 +1,11 @@
+Image Block to add a image in the center of the article and can also control the height.
+
+{
+         "//": "======== IMAGE BLOCK - 243.0x74.0 ========",
+         "role": "image",
+         "layout": {
+           "maximumContentWidth": 150,
+           "horizontalContentAlignment": "center"
+         },
+         "URL": "https://cdn-assets.ziniopro.com/var/site_8808/storage/images/media2/images/f0023-01/29073-1-eng-US/f0023-012.jpg?q=100"
+}

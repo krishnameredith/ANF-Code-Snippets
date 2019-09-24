@@ -1,0 +1,19 @@
+{
+    "//": "Video Block to add a video with start button. Which is not autoplaying",
+    "role": "container",
+    "layout": {
+      "ignoreDocumentMargin": true,
+      "margin": {
+        "bottom": 10,
+        "top": 10
+      }
+    },
+    "components": [
+      {
+        "role": "video",
+        "layout": "fullBleedPhotoLayout",
+        "stillURL": "http://timeinc.brightcove.com.edgesuite.net/rtmp_uds/416418724/201909/345/416418724_6083793105001_6083788900001-vs.jpg?pubId=416418724&videoId=6083788900001",
+        "URL": "https://secure.brightcove.com/services/mobile/streaming/index/master.m3u8?videoId=6083788900001&pubId=416418724&secure=true"
+      }
+    ]
+  }

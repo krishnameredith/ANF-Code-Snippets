@@ -1,7 +1,5 @@
-Image Block to add a image in the center of the article and can also control the height.
-
 {
-         "//": "======== IMAGE BLOCK - 243.0x74.0 ========",
+         "//": "======== Image Block to add a image in the center of the article and can also control the height. IMAGE BLOCK - 243.0x74.0 ========",
          "role": "image",
          "layout": {
            "maximumContentWidth": 150,

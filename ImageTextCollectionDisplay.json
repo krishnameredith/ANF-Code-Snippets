@@ -1,0 +1,91 @@
+{
+    "//": "Collection display. With Images and its relevant text or info side by side.",
+    "role": "container",
+    "layout": "singleBlockContainerLayout",
+    "contentDisplay": {
+      "gutter": 15,
+      "maximumWidth": "100cw",
+      "minimumWidth": 180,
+      "rowSpacing": 15,
+      "type": "collection",
+      "variableSizing": true
+    },
+    "components": [
+      {
+        "role": "container",
+        "components": [
+          {
+            "role": "container",
+            "anchor": {
+              "targetAnchorPosition": "center"
+            },
+            "components": [
+              {
+                "//": "======== SINGLE BLOCK CONTAINER =======",
+                "role": "container",
+                "layout": {
+                  "columnSpan": 18,
+                  "columnStart": 1,
+                  "conditional": [
+                    {
+                      "conditions": [
+                        {
+                          "minViewportWidth": 415
+                        }
+                      ],
+                      "margin": 20
+                    }
+                  ],
+                  "margin": 0
+                },
+                "style": "photoContainerStyle",
+                "components": [
+                  {
+                    "role": "image",
+                    "URL": "https://cdn-assets.ziniopro.com/var/site_988/storage/images/media2/images/sm_1163_l/115468-1-eng-GB/sm_1163_l2.jpg?q=100"
+                  }
+                ]
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "role": "container",
+        "components": [
+          {
+            "role": "container",
+            "anchor": {
+              "targetAnchorPosition": "center"
+            },
+            "components": [
+              {
+                "role": "heading3",
+                "layout": "heading3Layout",
+                "style": "heading3Style",
+                "textStyle": "heading3TextStyle",
+                "format": "html",
+                "text": "ISOtunes Xtra, $80"
+              },
+              {
+                "role": "body",
+                "layout": "bodyNoMarginAboveLayout",
+                "style": "paragraphStyle",
+                "textStyle": "bodyTextStyle",
+                "format": "html",
+                "text": "Similar to the Pro earbuds, the Xtra has a 27 NRR and 85-dB limiter, but lacks the ear wrap. You get four pairs of foam tips and three pairs of rubber tips to ensure a comfortable fit. Built-in magnets on the back of each earbud snap together to hold the unit around your neck after removing the tips from your ears."
+              },
+              {
+                "role": "body",
+                "layout": "bodyLayout",
+                "style": "paragraphStyle",
+                "textStyle": "bodyTextStyle",
+                "format": "html",
+                "text": "317-740-0419, <a href='http://isotunes.com'>isotunes.com</a>"
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  }

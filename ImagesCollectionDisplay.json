@@ -1,0 +1,74 @@
+{
+    "//": "Collection display. To have images side by side with captions. If caption not needed remove the caption component.",
+    "role": "container",
+    "layout": {
+      "columnSpan": 18,
+      "columnStart": 1,
+      "margin": {
+        "bottom": 10,
+        "top": 10
+      }
+    },
+    "components": [
+      {
+        "role": "container",
+        "contentDisplay": {
+          "maximumWidth": "100cw",
+          "minimumWidth": 120,
+          "type": "collection"
+        },
+        "components": [
+          {
+            "role": "container",
+            "components": [
+              {
+                "role": "container",
+                "layout": {
+                  "minimumHeight": "130cw"
+                },
+                "style": {
+                  "fill": {
+                    "type": "image",
+                    "fillMode": "fit",
+                    "URL": "https://cdn-assets.ziniopro.com/var/site_677/storage/images/media2/images/gettyimages_2113/1140447-1-eng-US/gettyimages_2112.jpg?q=100"
+                  }
+                }
+              },
+              {
+                "role": "caption",
+                "layout": "captionLayout",
+                "textStyle": "captionTextStyle",
+                "format": "html",
+                "text": "<caption-heading>Bound for Glory</caption-heading><br>Atwood (in 1967) has written 17 novels as well as books of poetry and nonfiction and has won numerous awards."
+              }
+            ]
+          },
+          {
+            "role": "container",
+            "components": [
+              {
+                "role": "container",
+                "layout": {
+                  "minimumHeight": "130cw"
+                },
+                "style": {
+                  "fill": {
+                    "type": "image",
+                    "fillMode": "fit",
+                    "URL": "https://cdn-assets.ziniopro.com/var/site_677/storage/images/media2/images/gettyimages_21214/1140440-1-eng-US/gettyimages_2122.jpg?q=100"
+                  }
+                }
+              },
+              {
+                "role": "caption",
+                "layout": "captionLayout",
+                "textStyle": "captionTextStyle",
+                "format": "html",
+                "text": "<caption-heading>A Feminist Symbol Is Born</caption-heading><br>Atwood signs her book in 1989 for a fan in the signature cap of the novel&#x2019;s handmaids, who are forced to bear children for infertile couples."
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  }
